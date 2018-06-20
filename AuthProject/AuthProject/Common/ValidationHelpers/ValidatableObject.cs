@@ -6,7 +6,7 @@ namespace AuthProject.Common.ValidationHelpers
 {
     public class ValidatableObject<T> : ExtendedBindableObject, IValidity
     {
-        private readonly List<IValidationRule<T>> _valid ations;
+        private readonly List<IValidationRule<T>> _validations;
 		private List<string> _errors;
         private T _value;
         private bool _isValid;
